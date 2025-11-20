@@ -1,0 +1,50 @@
+site_name: Learn AI
+site_description: Documentation for learn AI
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Introduction: 
+    - index.md
+  - Fondamentaux:
+    - fondamentaux/fondamentaux.md
+  - Data Analysis:
+    - data/data.md
+  - Machine Learning:
+    - ml/ml.md
+  - Deep Learning:
+    - dl/dl.md
+  - NLP & LLMs:
+    - nlp/nlp.md
+  - Prompt Engineering:
+    - prompting/prompting.md
+  - RAG:
+    - rag/rag.md
+  - Agents:
+    - agents/agents.md
+  - Fine-tuning:
+    - finetuning/finetuning.md
+  - MLOps:
+    - mlops/mlops.md
+  - Projets:
+    - projets/projets.md
+  - Next:
+    - next/next.md
+
