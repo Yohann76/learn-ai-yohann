@@ -1,5 +1,5 @@
 site_name: Learn AI
-site_description: Documentation for learn AI
+site_description: Formation IA en 6 modules (vue d'ensemble, données, ML & neurones, domaines, pratique, projets)
 theme:
   name: material
   language: fr
@@ -21,30 +21,44 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Introduction: 
-    - index.md
-  - Fondamentaux:
-    - fondamentaux/fondamentaux.md
-  - Data Analysis:
-    - data/data.md
-  - Machine Learning:
-    - ml/ml.md
-  - Deep Learning:
-    - dl/dl.md
-  - NLP & LLMs:
-    - nlp/nlp.md
-  - Prompt Engineering:
-    - prompting/prompting.md
-  - RAG:
-    - rag/rag.md
-  - Agents:
-    - agents/agents.md
-  - Fine-tuning:
-    - finetuning/finetuning.md
-  - MLOps:
-    - mlops/mlops.md
-  - Projets:
-    - projets/projets.md
-  - Next:
-    - next/next.md
+  - Accueil: index.md
 
+  - "1. Vue d'ensemble":
+    - Qu'est-ce que l'intelligence artificielle ?: 01-vue-ensemble/01-qu-est-ce-que-l-ia.md
+    - Histoire de l'IA: 01-vue-ensemble/02-histoire-ia.md
+    - "Création et évolution (dates clés, acteurs)": 01-vue-ensemble/03-creation-evolution.md
+    - Les différentes formes d'IA: 01-vue-ensemble/04-formes-ia.md
+    - Domaines d'application: 01-vue-ensemble/05-domaines-application.md
+
+  - "2. Données":
+    - "Données : la matière première": 02-fondements/01-donnees-matiere-premiere.md
+    - Statistiques et mathématiques de base: 02-fondements/02-stats-maths.md
+    - Types d'apprentissage (supervisé, non supervisé, renforcement): 02-fondements/03-types-apprentissage.md
+    - Évaluation des modèles et métriques: 02-fondements/04-evaluation-metriques.md
+    - Biais et éthique des données: 02-fondements/05-biais-ethique.md
+
+  - "3. ML & neurones":
+    - Du Machine Learning au Deep Learning: 03-ml-neurones/01-ml-vers-deep-learning.md
+    - Réseaux de neurones (structure, propagation): 03-ml-neurones/02-reseaux-neurones.md
+    - Entraînement et rétropropagation: 03-ml-neurones/03-entrainement-retropropagation.md
+    - Architectures (CNN, RNN, Transformers): 03-ml-neurones/04-architectures.md
+    - Frameworks et logiciels (scikit-learn, PyTorch, TensorFlow): 03-ml-neurones/05-frameworks-logiciels.md
+
+  - "4. Domaines":
+    - Traitement du langage naturel (NLP): 04-domaines/01-nlp.md
+    - Grands modèles de langage (LLMs): 04-domaines/02-llms.md
+    - Vision par ordinateur: 04-domaines/03-vision.md
+    - Recommandation et autres applications: 04-domaines/04-recommandation-autres.md
+
+  - "5. Pratique":
+    - Logiciels et environnements (Python, notebooks): 05-pratique/01-logiciels-environnements.md
+    - Prompt engineering: 05-pratique/02-prompt-engineering.md
+    - RAG (Retrieval Augmented Generation): 05-pratique/03-rag.md
+    - Fine-tuning: 05-pratique/04-fine-tuning.md
+    - Agents et orchestration: 05-pratique/05-agents.md
+    - MLOps et déploiement: 05-pratique/06-mlops.md
+
+  - "6. Projets":
+    - Projets pratiques: 06-projets/01-projets-pratiques.md
+    - Éthique et limites de l'IA: 06-projets/02-ethique-limites.md
+    - Aller plus loin (recherche, carrière): 06-projets/03-aller-plus-loin.md
